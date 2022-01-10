@@ -9,7 +9,7 @@ sceneByURL:
 xPathScrapers:
   sceneScraper:
     scene:
-      Title: //h2[contains(@class, "PlayerTitle-Title")]/text()
+      Title: //h1[contains(@class, "ScenePlayerHeaderDesktop-PlayerTitle-Title")]/text()
       Image: //div[contains(@class, "ScenePlayerHeaderDesktop-VideoBackground")]/img/@src
       Date:
         selector: //span[contains(@class, "ScenePlayerHeaderDesktop-Date-Text")]
